@@ -1,0 +1,23 @@
+{
+  "name": "blackui-vue",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hu970804/BlackUI-Vue.git"
+  },
+  "keywords": [
+    "vue",
+    "UI"
+  ],
+  "author": "Blackhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hu970804/BlackUI-Vue/issues"
+  },
+  "homepage": "https://github.com/hu970804/BlackUI-Vue#readme"
+}
