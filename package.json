@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/hu970804/BlackUI-Vue/issues"
   },
-  "homepage": "https://github.com/hu970804/BlackUI-Vue#readme"
+  "homepage": "https://github.com/hu970804/BlackUI-Vue#readme",
+  "dependencies": {
+    "vue": "^2.5.17"
+  }
 }
