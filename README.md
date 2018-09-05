@@ -3,3 +3,5 @@
 ## 安装
 
 使用此UI组件，请使用 border-box
+
+npx parcel index.html --no-cache 运行
