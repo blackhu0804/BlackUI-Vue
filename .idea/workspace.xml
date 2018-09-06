@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a765b04-1c28-42eb-a5ca-2f077e7ab7b3" name="Default Changelist" comment="添加karma mocha 进行自动化测试">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    <list default="true" id="7a765b04-1c28-42eb-a5ca-2f077e7ab7b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -31,7 +31,7 @@
           <entry key="css" value="3" />
           <entry key="gitignore" value="4" />
           <entry key="html" value="1" />
-          <entry key="js" value="8" />
+          <entry key="js" value="10" />
           <entry key="json" value="9" />
           <entry key="md" value="3" />
           <entry key="vue" value="3" />
@@ -44,7 +44,7 @@
           <entry key="CSS" value="3" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="8" />
+          <entry key="JavaScript" value="10" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Vue.js" value="3" />
@@ -56,10 +56,10 @@
         <counts>
           <entry key="gitignore" value="28" />
           <entry key="html" value="1044" />
-          <entry key="js" value="1095" />
-          <entry key="json" value="35" />
+          <entry key="js" value="1192" />
+          <entry key="json" value="40" />
           <entry key="md" value="49" />
-          <entry key="txt" value="281" />
+          <entry key="txt" value="296" />
           <entry key="vue" value="1549" />
           <entry key="yml" value="157" />
         </counts>
@@ -67,10 +67,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1044" />
-          <entry key="JSON" value="35" />
-          <entry key="JavaScript" value="1095" />
+          <entry key="JSON" value="40" />
+          <entry key="JavaScript" value="1192" />
           <entry key="Markdown" value="49" />
-          <entry key="PLAIN_TEXT" value="309" />
+          <entry key="PLAIN_TEXT" value="324" />
           <entry key="Vue.js" value="1549" />
           <entry key="YAML" value="157" />
         </counts>
@@ -122,20 +122,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="92">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+            <state relative-caret-position="92">
+              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,9 +169,10 @@
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/karma.conf.js" />
         <option value="$PROJECT_DIR$/test/button.test.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/button.vue" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -219,7 +223,7 @@
             <path>
               <item name="blackUI-Vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="blackUI-Vue" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +265,7 @@
       <workItem from="1536113017317" duration="6757000" />
       <workItem from="1536133886533" duration="5739000" />
       <workItem from="1536151176084" duration="2464000" />
-      <workItem from="1536192786393" duration="5653000" />
+      <workItem from="1536192786393" duration="8269000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1536114158702</created>
@@ -368,11 +372,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536196591783</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="添加travis 进行自动测试">
+      <created>1536199358475</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1536199358475</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20613000" />
+    <option name="totallyTimeSpent" value="23229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,7 +398,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15170771" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15170771" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -399,7 +410,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32846716" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49960285" weight="0.32846716" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960285" weight="0.2919708" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960285" visible="true" weight="0.4379562" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.27554744" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32846716" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -448,7 +459,8 @@
     <MESSAGE value="添加chaijs以及四个测试用例" />
     <MESSAGE value="添加chai-spies 监听回调" />
     <MESSAGE value="添加karma mocha 进行自动化测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加karma mocha 进行自动化测试" />
+    <MESSAGE value="添加travis 进行自动测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加travis 进行自动测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/button.js" />
@@ -559,17 +571,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/dist/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state relative-caret-position="-3243">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
