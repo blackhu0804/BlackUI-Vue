@@ -6,6 +6,7 @@
 
 <script>
     export default {
+        name: 'Black-buttonGroup',
         mounted() {
             for(let node of this.$el.children) {
                 if(node.nodeName.toLowerCase() !== 'button'){
@@ -16,7 +17,7 @@
     }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     .g-button-group {
         display: inline-flex;
         vertical-align: middle;
