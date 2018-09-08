@@ -30,13 +30,23 @@
         }
     </style>
     <style>
+        .box {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
 <div id="app">
-    <g-input></g-input>
+    <div class="box">
+        <g-input value="输入框"></g-input>
+        <g-input value="输入框 disabled" disabled></g-input>
+        <g-input value="输入框 readonly" readonly></g-input>
+    </div>
+    <div class="box">
+        <g-input value="输入框 error" error="姓名不能少于两个字"></g-input>
+    </div>
 
-    <div style="margin-top: 20px">
+    <div class="box">
         <g-button :loading=loading1 @click="loading1 = !loading1">
             按钮
         </g-button>
