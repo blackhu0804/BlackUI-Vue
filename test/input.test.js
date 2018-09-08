@@ -74,9 +74,10 @@ describe('Input', () => {
                 vm.$on(eventName, callbalck)
                 // 触发input change 事件
                 let event = new Event(eventName)
+                Object.defineProperty(event, 'target', {value: {value: 'hi'}})
                 let inputElement = vm.$el.querySelector('input')
                 inputElement.dispatchEvent(event);
-                expect(callbalck).to.have.been.calledWith(event)
+                expect(callbalck).to.have.been.calledWith('hi')
             })
         })
     })

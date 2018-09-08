@@ -38,7 +38,8 @@
 <body>
 <div id="app">
     <div class="box">
-        <g-input value="输入框"></g-input>
+        <g-input value="输入框" v-model="message"></g-input>
+        <p>{{message}}</p>
         <g-input value="输入框 disabled" disabled></g-input>
         <g-input value="输入框 readonly" readonly></g-input>
     </div>
