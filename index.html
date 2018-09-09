@@ -32,18 +32,29 @@
     <style>
         .box,hr {
             margin-top: 20px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
 <div id="app">
     <g-row>
-        <g-col></g-col>
-        <g-col></g-col>
+        <g-col>col</g-col>
+        <g-col>col</g-col>
     </g-row>
     <g-row>
-        <g-col span="2"></g-col>
-        <g-col span="22"></g-col>
+        <g-col span="2">col-2</g-col>
+        <g-col span="22">col-22</g-col>
+    </g-row>
+    <g-row>
+        <g-col span="2">col-2</g-col>
+        <g-col span="20" offset="2">col-20 offset-2</g-col>
+    </g-row>
+    <hr>
+    <g-row gutter="20">
+        <g-col span="2">col-2</g-col>
+        <g-col span="10">col-10</g-col>
+        <g-col span="12">col-12</g-col>
     </g-row>
     <hr>
     <div class="box">

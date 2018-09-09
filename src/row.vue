@@ -1,15 +1,34 @@
 <template>
-    <div class="row">
+    <div class="row" :style="{marginLeft: -gutter/2+'px', marginRight: -gutter/2+'px'}">
         <slot></slot>
     </div>
 </template>
 
 <script>
-
+    export default {
+        name: 'blackRow',
+        props: {
+            gutter: {
+                type: [Number, String]
+            }
+        },
+        mounted() {
+            this.$children.forEach( (vm) => {
+                vm.gutter = this.gutter
+            })
+        }
+    }
 </script>
 
 <style lang="scss" scoped>
     .row {
         display: flex;
+        margin-bottom:10px;
+        .col:nth-of-type(odd) {
+            background-color: rgba(0, 160, 233, 0.7);
+        }
+        .col:nth-of-type(even) {
+            background-color: #00a0e9;
+        }
     }
 </style>
