@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a765b04-1c28-42eb-a5ca-2f077e7ab7b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/input.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/input.test.js" afterDir="false" />
-    </list>
+    <list default="true" id="7a765b04-1c28-42eb-a5ca-2f077e7ab7b3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,7 +15,7 @@
     <session id="851226616">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
@@ -64,7 +58,7 @@
           <entry key="js" value="2124" />
           <entry key="json" value="41" />
           <entry key="md" value="374" />
-          <entry key="txt" value="373" />
+          <entry key="txt" value="385" />
           <entry key="vue" value="2811" />
           <entry key="yml" value="157" />
         </counts>
@@ -75,7 +69,7 @@
           <entry key="JSON" value="41" />
           <entry key="JavaScript" value="2124" />
           <entry key="Markdown" value="374" />
-          <entry key="PLAIN_TEXT" value="401" />
+          <entry key="PLAIN_TEXT" value="413" />
           <entry key="Vue.js" value="2811" />
           <entry key="YAML" value="157" />
         </counts>
@@ -96,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="-94">
               <caret line="43" column="46" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="46" />
             </state>
           </provider>
@@ -117,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -262,7 +256,7 @@
       <workItem from="1536151176084" duration="2464000" />
       <workItem from="1536192786393" duration="13619000" />
       <workItem from="1536389501922" duration="1023000" />
-      <workItem from="1536390654947" duration="9256000" />
+      <workItem from="1536390654947" duration="9954000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1536114158702</created>
@@ -411,11 +405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536397528726</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="支持双向绑定">
+      <created>1536409269567</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1536409269567</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38858000" />
+    <option name="totallyTimeSpent" value="39556000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,7 +429,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32983023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2497979" />
@@ -441,7 +441,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32846716" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49960285" weight="0.32846716" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960285" weight="0.3211679" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49960285" visible="true" weight="0.3211679" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.27554744" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32846716" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -497,7 +497,8 @@
     <MESSAGE value="添加scoped" />
     <MESSAGE value="添加input的几种样式" />
     <MESSAGE value="添加input的测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加input的测试用例" />
+    <MESSAGE value="支持双向绑定" />
+    <option name="LAST_COMMIT_MESSAGE" value="支持双向绑定" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/button.js" />
@@ -622,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="43" column="46" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/input.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -642,10 +636,17 @@
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="46" />
         </state>
       </provider>
     </entry>
