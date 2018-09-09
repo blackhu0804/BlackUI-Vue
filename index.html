@@ -37,6 +37,25 @@
     </style>
 </head>
 <body>
+<style>
+    .col:nth-of-type(odd) {
+        background-color: rgba(0, 160, 233, 0.7);
+    }
+    .col:nth-of-type(even) {
+        background-color: #00a0e9;
+    }
+    .row .gutter-box:nth-of-type(odd),.row .gutter-box:nth-of-type(even) {
+        background-color: #fff;
+    }
+    .row .gutter-box:nth-of-type(odd) > div {
+        height: 50px;
+        background-color: rgba(0, 160, 233, 0.7);
+    }
+    .row .gutter-box:nth-of-type(even) > div {
+        height: 50px;
+        background-color: #00a0e9;
+    }
+</style>
 <div id="app">
     <g-row>
         <g-col>col</g-col>
@@ -52,9 +71,15 @@
     </g-row>
     <hr>
     <g-row gutter="20">
-        <g-col span="2">col-2</g-col>
-        <g-col span="10">col-10</g-col>
-        <g-col span="12">col-12</g-col>
+        <g-col class="gutter-box" span="2">
+            <div >col-2</div>
+        </g-col>
+        <g-col class="gutter-box" span="10">
+            <div>col-10</div>
+        </g-col>
+        <g-col class="gutter-box" span="12">
+            <div>col-12</div>
+        </g-col>
     </g-row>
     <hr>
     <div class="box">
