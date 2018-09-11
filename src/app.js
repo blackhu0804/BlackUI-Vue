@@ -5,11 +5,11 @@ import ButtonGroup from './button-group'
 import Input from './input'
 import Row from './row'
 import Col from './col'
-import Layout from './layout'
-import Header from './header'
-import Aside from './aside'
-import Content from './content'
-import Footer from './footer'
+import Layout from './layout/layout'
+import Header from './layout/header'
+import Aside from './layout/aside'
+import Content from './layout/content'
+import Footer from './layout/footer'
 
 Vue.component('g-button', Button);
 Vue.component('g-icon', Icon);
