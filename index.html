@@ -23,7 +23,6 @@
             --border-color-hover: #666;
         }
         #app {
-            margin: 20px;
         }
         body {
             font-size: var(--font-size);
@@ -58,24 +57,25 @@
     .demo {
         min-height: 50px;
     }
-    .header,.footer {
+    .layout .header,.footer {
         background: #7dbcea;
     }
-    .content {
+    .layout .content {
         background: rgba(16, 142, 233, 1);
     }
-    .aside {
+    .layout .aside {
         background: #3ba0e9;
+        width: 200px;
     }
 </style>
 <div id="app">
-    <g-layout style="height: 200px; margin-bottom: 20px;">
+    <g-layout class="layout" style="height: 200px; margin-bottom: 20px;">
         <g-header class="demo header">header</g-header>
         <g-content class="demo content">content</g-content>
         <g-footer class="demo footer">footer</g-footer>
     </g-layout>
 
-    <g-layout style="height: 200px; margin-bottom: 20px;">
+    <g-layout class="layout" style="height: 200px; margin-bottom: 20px;">
         <g-header class="demo header">header</g-header>
         <g-layout>
             <g-aside class="demo aside">aside</g-aside>
@@ -84,7 +84,7 @@
         <g-footer class="demo footer">footer</g-footer>
     </g-layout>
 
-    <g-layout style="height: 200px;">
+    <g-layout class="layout" style="height: 200px;">
         <g-aside class="demo aside">aside</g-aside>
         <g-layout>
             <g-header class="demo header">header</g-header>
