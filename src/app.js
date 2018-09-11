@@ -10,6 +10,8 @@ import Header from './layout/header'
 import Aside from './layout/aside'
 import Content from './layout/content'
 import Footer from './layout/footer'
+import Toast from './toast'
+import plugin from './plugin'
 
 Vue.component('g-button', Button);
 Vue.component('g-icon', Icon);
@@ -22,6 +24,8 @@ Vue.component('g-header', Header);
 Vue.component('g-content', Content);
 Vue.component('g-aside', Aside);
 Vue.component('g-footer', Footer);
+Vue.component('g-toast', Toast);
+Vue.use(plugin);
 
 
 new Vue({
@@ -35,6 +39,9 @@ new Vue({
     methods: {
         inputChange(e) {
             console.log(e.target.value)
+        },
+        showToast() {
+            this.$toast('我是toast')
         }
     }
 });
