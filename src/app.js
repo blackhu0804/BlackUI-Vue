@@ -45,13 +45,15 @@ new Vue({
         },
         showToast() {
             this.$toast('我是toast', {
+                enableHtml: false, // 表示是否支持html
+                position: 'middle',
+                autoClose: false,
                 closeButton: {
                     text: '知道了',
                     callback() {
                         console.log('用户知道了')
                     },
                 },
-                enableHtml: false, // 表示是否支持html
             })
         }
     }
