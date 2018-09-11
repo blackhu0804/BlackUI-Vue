@@ -53,8 +53,7 @@ new Vue({
             this.$toast('我是toast', {
                 position,
                 enableHtml: false, // 表示是否支持html
-                autoClose: false,
-                autoCloseDelay: 3,
+                autoClose: 3,
                 closeButton: {
                     text: '关闭',
                     callback() {
