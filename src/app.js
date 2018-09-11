@@ -16,6 +16,7 @@ Vue.component('g-icon', Icon);
 Vue.component('g-button-group', ButtonGroup);
 Vue.component('g-input', Input);
 Vue.component('g-row', Row);
+Vue.component('g-col', Col);
 Vue.component('g-layout', Layout);
 Vue.component('g-header', Header);
 Vue.component('g-content', Content);

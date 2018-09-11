@@ -55,8 +55,44 @@
         height: 50px;
         background-color: #00a0e9;
     }
+    .demo {
+        min-height: 50px;
+    }
+    .header,.footer {
+        background: #7dbcea;
+    }
+    .content {
+        background: rgba(16, 142, 233, 1);
+    }
+    .aside {
+        background: #3ba0e9;
+    }
 </style>
 <div id="app">
+    <g-layout style="height: 200px; margin-bottom: 20px;">
+        <g-header class="demo header">header</g-header>
+        <g-content class="demo content">content</g-content>
+        <g-footer class="demo footer">footer</g-footer>
+    </g-layout>
+
+    <g-layout style="height: 200px; margin-bottom: 20px;">
+        <g-header class="demo header">header</g-header>
+        <g-layout>
+            <g-aside class="demo aside">aside</g-aside>
+            <g-content class="demo content">content</g-content>
+        </g-layout>
+        <g-footer class="demo footer">footer</g-footer>
+    </g-layout>
+
+    <g-layout style="height: 200px;">
+        <g-aside class="demo aside">aside</g-aside>
+        <g-layout>
+            <g-header class="demo header">header</g-header>
+            <g-content class="demo content">content</g-content>
+            <g-footer class="demo footer">footer</g-footer>
+        </g-layout>
+    </g-layout>
+    <hr>
     <g-row>
         <g-col span="2">col-2</g-col>
         <g-col span="22">col-22</g-col>
