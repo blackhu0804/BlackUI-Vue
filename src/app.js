@@ -36,12 +36,23 @@ new Vue({
         loading3: false,
         message: '双向绑定'
     },
+    created() {
+
+    },
     methods: {
         inputChange(e) {
             console.log(e.target.value)
         },
         showToast() {
-            this.$toast('我是toast')
+            this.$toast('我是toast', {
+                closeButton: {
+                    text: '知道了',
+                    callback() {
+                        console.log('用户知道了')
+                    },
+                },
+                enableHtml: false, // 表示是否支持html
+            })
         }
     }
 });
