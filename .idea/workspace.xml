@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a765b04-1c28-42eb-a5ca-2f077e7ab7b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,7 +35,7 @@
           <entry key="js" value="23" />
           <entry key="json" value="11" />
           <entry key="md" value="4" />
-          <entry key="vue" value="34" />
+          <entry key="vue" value="35" />
           <entry key="xml" value="1" />
           <entry key="yml" value="1" />
         </counts>
@@ -51,7 +48,7 @@
           <entry key="JavaScript" value="23" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Vue.js" value="34" />
+          <entry key="Vue.js" value="35" />
           <entry key="XML" value="1" />
           <entry key="YAML" value="1" />
         </counts>
@@ -60,11 +57,11 @@
         <counts>
           <entry key="gitignore" value="28" />
           <entry key="html" value="2319" />
-          <entry key="js" value="3353" />
+          <entry key="js" value="3522" />
           <entry key="json" value="47" />
           <entry key="md" value="374" />
-          <entry key="txt" value="524" />
-          <entry key="vue" value="7289" />
+          <entry key="txt" value="600" />
+          <entry key="vue" value="7567" />
           <entry key="yml" value="157" />
         </counts>
       </usages-collector>
@@ -72,10 +69,10 @@
         <counts>
           <entry key="HTML" value="2319" />
           <entry key="JSON" value="47" />
-          <entry key="JavaScript" value="3353" />
+          <entry key="JavaScript" value="3522" />
           <entry key="Markdown" value="374" />
-          <entry key="PLAIN_TEXT" value="552" />
-          <entry key="Vue.js" value="7289" />
+          <entry key="PLAIN_TEXT" value="628" />
+          <entry key="Vue.js" value="7567" />
           <entry key="YAML" value="157" />
         </counts>
       </usages-collector>
@@ -95,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="136">
               <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#g-layout#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -106,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+            <state relative-caret-position="95">
+              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -121,17 +118,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/toast.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+            <state relative-caret-position="138">
+              <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+              <folding>
+                <element signature="e#1055#1661#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/plugin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="138">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -145,6 +145,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>includes</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -172,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/svg.js" />
         <option value="$PROJECT_DIR$/test/input.test.js" />
         <option value="$PROJECT_DIR$/src/input.vue" />
-        <option value="$PROJECT_DIR$/src/row.vue" />
         <option value="$PROJECT_DIR$/src/col.vue" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/test/row.test.js" />
@@ -184,9 +188,10 @@
         <option value="$PROJECT_DIR$/src/layout.vue" />
         <option value="$PROJECT_DIR$/src/aside.vue" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/plugin.js" />
-        <option value="$PROJECT_DIR$/src/toast.vue" />
+        <option value="$PROJECT_DIR$/src/row.vue" />
         <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/toast.vue" />
+        <option value="$PROJECT_DIR$/src/plugin.js" />
       </list>
     </option>
   </component>
@@ -267,7 +272,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="format&#9;ACTION&#9;ReformatCode&#10;top&#9;ACTION&#9;TabsPlacementTop&#10;right&#9;ACTION&#9;TabsPlacementRight&#10;left&#9;ACTION&#9;TabsPlacementLeft&#10;keymap&#9;ACTION&#9;Help.KeymapReference&#10;vcs&#9;ACTION&#9;Vcs.QuickListPopupAction" />
+    <property name="SearchEverywhereHistoryKey" value="find pa&#9;ACTION&#9;FindInPath&#10;format&#9;ACTION&#9;ReformatCode&#10;top&#9;ACTION&#9;TabsPlacementTop&#10;right&#9;ACTION&#9;TabsPlacementRight&#10;left&#9;ACTION&#9;TabsPlacementLeft&#10;keymap&#9;ACTION&#9;Help.KeymapReference&#10;vcs&#9;ACTION&#9;Vcs.QuickListPopupAction" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -304,7 +309,7 @@
       <workItem from="1536390654947" duration="9954000" />
       <workItem from="1536454871214" duration="14851000" />
       <workItem from="1536584834017" duration="737000" />
-      <workItem from="1536626810691" duration="13835000" />
+      <workItem from="1536626810691" duration="16241000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1536114158702</created>
@@ -544,11 +549,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536635109061</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="实现可以autoclose 多行文字 可以添加html的功能">
+      <created>1536656088867</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1536656088867</updated>
+    </task>
+    <task id="LOCAL-00036" summary="实现position top/bottom/middle 功能">
+      <created>1536666208883</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1536666208883</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68996000" />
+    <option name="totallyTimeSpent" value="71402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -590,8 +609,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加loading状态" />
-    <MESSAGE value="添加click事件" />
     <MESSAGE value="创建button-group" />
     <MESSAGE value="完成button-group,解决一border变宽的bug" />
     <MESSAGE value="添加chaijs以及四个测试用例" />
@@ -615,7 +632,9 @@
     <MESSAGE value="layout 加一个简单的隐藏动画" />
     <MESSAGE value="修改一下目录结构" />
     <MESSAGE value="添加toast 和 plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加toast 和 plugin" />
+    <MESSAGE value="实现可以autoclose 多行文字 可以添加html的功能" />
+    <MESSAGE value="实现position top/bottom/middle 功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现position top/bottom/middle 功能" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/button.js" />
@@ -757,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/row.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/row.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -816,23 +828,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugin.js">
+    <entry file="file://$PROJECT_DIR$/src/row.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/toast.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+        <state relative-caret-position="256">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="136">
           <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#g-layout#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -842,13 +847,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/toast.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+          <folding>
+            <element signature="e#1055#1661#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        <state relative-caret-position="95">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
