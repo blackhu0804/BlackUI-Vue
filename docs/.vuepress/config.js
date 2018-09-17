@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/BlackUI-Vue/',
     title: 'Black UI',
     description: 'Vue UI组件库',
     themeConfig: {
@@ -12,7 +13,13 @@ module.exports = {
             },
             {
                 title: '组件',
-                children: [ '/components/Button' ]
+                children: [
+                    '/components/Button',
+                    '/components/Input',
+                    '/components/Grid',
+                    '/components/Layout',
+                    '/components/Toast',
+                ]
             }
         ]
     }
