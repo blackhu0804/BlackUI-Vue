@@ -12,7 +12,7 @@
         <p>
             <strong>代码</strong>
         </p>
-        <pre><code>{{content}}</code></pre>
+        <!--<pre><code>{{content}}</code></pre>-->
     </div>
 </template>
 <script>
@@ -22,15 +22,15 @@
         data () {
             return {
                 value: '1',
-                content: `
-            data:{
-                value: '1'
-            }
-            <g-input v-model="value"></g-input>
-            <div>
-                value: {{value}}
-            </div>
-      `.replace(/^ {8}/gm, '').trim()
+      //           content: `
+      //       data:{
+      //           value: '1'
+      //       }
+      //       <g-input v-model="value"></g-input>
+      //       <div>
+      //           value: {{value}}
+      //       </div>
+      // `.replace(/^ {8}/gm, '').trim()
             }
         }
     }

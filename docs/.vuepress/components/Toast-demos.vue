@@ -14,7 +14,7 @@
         <p>
             <strong>代码</strong>
         </p>
-        <pre><code>{{content}}</code></pre>
+        <!--<pre><code>{{content}}</code></pre>-->
     </div>
 </template>
 <style>
@@ -34,14 +34,14 @@
     Vue.use(plugin)
     export default {
         components: {GButton},
-        data () {
-            return {
-                content: `
-            <g-button @click="$toast('点击弹出提示')">上方弹出</g-button>
-            <g-button @click="$toast('点击弹出提示', {position:'middle'})">中间弹出</g-button>
-            <g-button @click="$toast('点击弹出提示', {position:'bottom'})">下方弹出</g-button>
-      `.replace(/^ {8}/gm, '').trim()
-            }
-        }
+      //   data () {
+      //       return {
+      //           content: `
+      //       <g-button @click="$toast('点击弹出提示')">上方弹出</g-button>
+      //       <g-button @click="$toast('点击弹出提示', {position:'middle'})">中间弹出</g-button>
+      //       <g-button @click="$toast('点击弹出提示', {position:'bottom'})">下方弹出</g-button>
+      // `.replace(/^ {8}/gm, '').trim()
+      //       }
+      //   }
     }
 </script>

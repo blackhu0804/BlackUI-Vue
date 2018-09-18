@@ -11,23 +11,23 @@
         <p>
             <strong>代码</strong>
         </p>
-        <pre><code>{{content}}</code></pre>
+        <!--<pre><code>{{content}}</code></pre>-->
     </div>
 </template>
 <script>
     import GInput from '../../../src/input'
     export default {
         components: {GInput},
-        data () {
-            return {
-                selected: '1',
-                content: `
-            <g-input></g-input>
-            <g-input value="输入框"></g-input>
-            <g-input value="输入框 disabled" disabled></g-input>
-            <g-input value="输入框 readonly" readonly></g-input>
-      `.replace(/^ {8}/gm, '').trim()
-            }
-        }
+      //   data () {
+      //       return {
+      //           selected: '1',
+      //           content: `
+      //       <g-input></g-input>
+      //       <g-input value="输入框"></g-input>
+      //       <g-input value="输入框 disabled" disabled></g-input>
+      //       <g-input value="输入框 readonly" readonly></g-input>
+      // `.replace(/^ {8}/gm, '').trim()
+      //       }
+      //   }
     }
 </script>
