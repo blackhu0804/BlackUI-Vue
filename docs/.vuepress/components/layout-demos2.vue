@@ -5,13 +5,19 @@
             <strong>预览</strong>
         </p>
 
-        <g-layout style="color: white; margin-bottom:50px;">
+
+        <g-layout style="color: white; overflow:hidden; margin-bottom:50px;">
             <g-header style="height: 50px; background:lightskyblue;">
                 header
             </g-header>
-            <g-content style="height: 100px; background:deepskyblue;">
-                content
-            </g-content>
+            <g-layout>
+                <g-aside style="height: 100px; background:#3ba0e9; width:200px; color: black;">
+                    aside
+                </g-aside>
+                <g-content style="height: 100px; background:deepskyblue;">
+                    content
+                </g-content>
+            </g-layout>
             <g-footer style="height: 50px; background:lightskyblue;">
                 footer
             </g-footer>
@@ -39,15 +45,20 @@
         data () {
             return {
                 content: `
-            <g-layout style="color: white; margin-bottom:50px;">
+            <g-layout style="color: white; overflow:hidden; margin-bottom:50px;">
                 <g-header style="height: 50px; background:lightskyblue;">
-                  header
+                    header
                 </g-header>
-                <g-content style="height: 100px; background:deepskyblue;">
-                  content
-                </g-content>
+                <g-layout>
+                    <g-aside style="height: 100px; background:#3ba0e9; width:200px; color: black;">
+                    aside
+                    </g-aside>
+                    <g-content style="height: 100px; background:deepskyblue;">
+                    content
+                    </g-content>
+                </g-layout>
                 <g-footer style="height: 50px; background:lightskyblue;">
-                  footer
+                    footer
                 </g-footer>
             </g-layout>
       `.replace(/^ {8}/gm, '').trim()
